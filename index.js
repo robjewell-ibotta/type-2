@@ -1,7 +1,7 @@
 const gs1 =  require('gs1')
 
 
-const upc = '212345019954'
+const upc = '21234501995'
 
 console.log('=== upc ===')
 console.log(upc)
@@ -15,5 +15,5 @@ const checkDigitgs1 = gs1.checkdigit(upc)
 console.log('=== gs1 ===')
 console.log(gs1Init)
 console.log(validgs1)
-console.log(`${upc}${checkDigitgs1}`)
+console.log(`${checkDigitgs1}`)
 console.log('=== gs1 ===')
