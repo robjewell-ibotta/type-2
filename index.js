@@ -9,7 +9,7 @@ console.log(upc.length)
 console.log('=== upc ===')
 
 const validated = gs1(upc)
-const validgs1 = gs1.validate(upc)
+const validgs1 = gs1.validate(validated)
 const checkDigitgs1 = gs1.checkdigit(upc)
 
 console.log('=== gs1 ===')
